@@ -33,11 +33,6 @@ folder('COREINFRA/Deploy/main/prd') {
     description('Folder containing deploy jobs for COREINFRA main')
 }
 
-folder('DEV_PORTAL') {
-    displayName('DEV_PORTAL')
-    description('DEV_PORTAL')
-}
-
-folder('DEV_PORTAL/prd') {
+folder('COREINFRA/Deploy/devportal/prd') {
     description('Folder containing deploy jobs for DEV_PORTAL main')
 }
