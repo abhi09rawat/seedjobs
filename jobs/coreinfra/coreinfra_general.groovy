@@ -78,6 +78,15 @@ for(String acc in accs) {
     }
 }
 
-
+for(String acc in ['devportal']) {
+    for(String env in ['dev', 'tst', 'prd']) {
+        coreInfraDeploy(acc, env, 'backend')
+        coreInfraDeploy(acc, env, 'iam')
+        coreInfraDeploy(acc, env, 'network')
+        coreInfraDeploy(acc, env, 'eks_base')
+        coreInfraDeploy(acc, env, 'eks_addons')
+        //coreInfraDeploy(acc, env, 'rds_auth')
+    }
+}
 
 
