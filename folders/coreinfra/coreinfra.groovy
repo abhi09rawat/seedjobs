@@ -40,3 +40,19 @@ folder('COREINFRA/Deploy/devportal') {
 folder('COREINFRA/Deploy/devportal/prd') {
     description('Folder containing deploy jobs for DEV_PORTAL main')
 }
+
+folder('COREINFRA/Deploy/payments') {
+    description('Folder containing deploy jobs for DEV_PORTAL main')
+}
+
+folder('COREINFRA/Deploy/payments/tst') {
+    description('Folder containing deploy jobs for DEV_PORTAL main')
+}
+
+folder('COREINFRA/Deploy/payments/stg') {
+    description('Folder containing deploy jobs for DEV_PORTAL main')
+}
+
+folder('COREINFRA/Deploy/payments/prd') {
+    description('Folder containing deploy jobs for DEV_PORTAL main')
+}

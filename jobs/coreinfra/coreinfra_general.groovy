@@ -89,4 +89,15 @@ for(String acc in ['devportal']) {
     }
 }
 
+// payments
+for(String env in ['tst', 'stg', 'prd']) {
+    coreInfraDeploy('payments', env, 'backend')
+    coreInfraDeploy('payments', env, 'iam')
+    coreInfraDeploy('payments', env, 'network')
+    coreInfraDeploy('payments', env, '06_cloudwatchlogs')
+    coreInfraDeployWithCron('payments', env, 'backup_vault', '0 8 * * *')
+}
+
+
+
 
