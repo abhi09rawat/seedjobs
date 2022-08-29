@@ -79,7 +79,7 @@ for(String acc in accs) {
 }
 
 for(String acc in ['devportal']) {
-    for(String env in ['dev', 'tst', 'prd']) {
+    for(String env in ['prd']) {
         coreInfraDeploy(acc, env, 'backend')
         coreInfraDeploy(acc, env, 'iam')
         coreInfraDeploy(acc, env, 'network')
