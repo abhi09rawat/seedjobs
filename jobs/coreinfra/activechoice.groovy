@@ -21,7 +21,7 @@ accountMap = [
 ]
 
 def forceSchedulerDeploy(String jobName, String jenkinsfileScript) {
-    pipelineJob('COREINFRA/ops/shared-services/prd/' + jobName) {
+    pipelineJob('COREINFRA/Deploy/payments/prd/' + jobName) {
 				parameters {
 						activeChoiceParam('accountName') {
 								description('Allows user choose from multiple choices')
