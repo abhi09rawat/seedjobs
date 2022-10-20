@@ -5,6 +5,11 @@ folder('COREINFRA') {
     description('COREINFRA')
 }
 
+folder('COREINFRA-2') {
+    displayName('COREINFRA-2')
+    description('COREINFRA-2')
+}
+
 folder('COREINFRA/Deploy') {
     description('Folder containing deploy jobs for COREINFRA')
 }
