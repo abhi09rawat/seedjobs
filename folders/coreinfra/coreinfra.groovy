@@ -5,6 +5,11 @@ folder('COREINFRA') {
     description('COREINFRA')
 }
 
+folder('FlexCube') {
+    displayName('FlexCube')
+    description('FlexCube')
+}
+
 folder('COREINFRA-2') {
     displayName('COREINFRA-2')
     description('COREINFRA-2')
